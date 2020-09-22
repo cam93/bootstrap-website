@@ -1,0 +1,158 @@
+#title .container-fluid{
+  padding: 3% 15% 8%;
+  text-align: left;
+}
+
+#features{
+  background-color: white;
+  position:relative;
+  z-index: 1;
+}
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+.big-heading{
+  font-family: 'Montserrat-dark', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid{
+  padding: 8% 15%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light'
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-image{
+  width: 65%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.icons{
+  font-size: 250%;
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.icons:hover{
+  color: #ff4c68;
+}
+
+.features{
+  padding: 5%;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 30px 40px
+}
+
+.section-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.pricing-col{
+  padding: 2%;
+}
+
+.price-text{
+  font-size: 2.5rem;
+  line-height: 1.5
+  color: #000;
+  font-weight: 900;
+}
+
+.footer-icons{
+  font-size: 1.2rem;
+  padding: 10px 10px 15px;
+}
+
+/* sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-dark';
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+@media (max-width: 1030px){
+
+  #title{
+    text-align: center;
+  }
+
+  .iphone-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
